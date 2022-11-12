@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.container {
+.containerx {
     width: 570px;
     margin: 0 auto;
     border: solid;
@@ -92,10 +92,11 @@ nav {
 }
 
 .name {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     display: block;
-    color: #131313;
+    color: whitesmoke;
+    text-decoration: none !important;
 }
 
 .art{
@@ -109,13 +110,12 @@ a:active {
 }
 
 a {
-    color: #99D930;
+    color: #FFDEAD;
     font-weight: bold;
 }
 
 .kwanza {
-    background-color: #D7D7D7 !important;
-    padding: 100px 0;
+    background-color: #D7D7D7;
 }
 
 .second {
@@ -126,8 +126,8 @@ a {
 }
 
 .btn {
-    background-color: #99D930;
-    color: #252525;
+    background-color: black;
+    color: whitesmoke;
     padding: 10px;
     text-decoration: none;
     margin: 10px;
@@ -139,4 +139,15 @@ a {
 .btn:hover {
     background-color: #252525;
     color: white;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-1 {
+    border: solid;
+    padding: 20px;
 }
