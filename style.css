@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-.dphoto {
-    width: 100px;
-    border: 2px;
-    border-radius: 20%;
-    padding: 20px;
-}
-
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -20,6 +12,11 @@ body {
     border: solid;
     border-radius: 5px;
     box-shadow: 10px 10px #888888;
+    background-image: url("img/pexels-roberto-nickson-2559941.jpg");
+    background-size: cover;
+    background-position: center;    
+    padding: 0 20px;
+    color: white;
 }
 
 h1,
@@ -41,6 +38,52 @@ h2 {
 
 h3 {
     font-size: 36px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: whitesmoke;  
+}
+
+nav ul li a:hover{
+    color: #99D930;
+    transition: .3s;
+}
+
+nav button {
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    margin-right: 100px;
+    border-radius: 30px;
+    color: #D7D7D7;
+}
+
+nav {
+    background-color: #000;
+    height: 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+.logoRed {
+    color: #ea1538;
 }
 
 .small-text {
@@ -77,11 +120,8 @@ a {
 .second {
     background-color: #FFEAEA;
     padding: 100px 0;
-}
+    display: flex;
 
-.third {
-    background-color: #EAF9FF;
-    padding: 100px 0;
 }
 
 .btn {
