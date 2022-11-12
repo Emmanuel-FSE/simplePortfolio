@@ -70,6 +70,7 @@ nav button {
     margin-right: 100px;
     border-radius: 30px;
     color: #D7D7D7;
+    font-size: medium;
 }
 
 nav {
@@ -113,7 +114,7 @@ a {
 }
 
 .kwanza {
-    background-color: #D7D7D7;
+    background-color: #D7D7D7 !important;
     padding: 100px 0;
 }
 
